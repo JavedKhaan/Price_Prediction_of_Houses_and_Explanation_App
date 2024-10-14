@@ -7,7 +7,7 @@ This project is a machine learning web application built with **Streamlit** that
 2. [Features](#features)
 3. [Setup Instructions](#setup-instructions)
 4. [How to Use](#how-to-use)
-5. [Future Improvements](#model-performance)
+5. [Future Improvements](#future-improvemewnts)
 6. [License](#license)
 
 ## Project Overview
@@ -86,3 +86,4 @@ OpenAI API Key not set: Make sure the .env file is correctly configured with you
 Dependencies not installed: Double-check that all packages in requirements.txt are installed.
 
 ## LICENSE 
+[MIT License](LICENSE)
