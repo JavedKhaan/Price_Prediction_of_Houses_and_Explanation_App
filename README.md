@@ -7,9 +7,8 @@ This project is a machine learning web application built with **Streamlit** that
 2. [Features](#features)
 3. [Setup Instructions](#setup-instructions)
 4. [How to Use](#how-to-use)
-5. [Model Performance](#model-performance)
-6. [Technologies Used](#technologies-used)
-7. [License](#license)
+5. [Future Improvements](#model-performance)
+6. [License](#license)
 
 ## Project Overview
 
@@ -30,7 +29,7 @@ cd Price_Prediction_of_Houses_and_Explanation_App
 
 
 
-## Install Dependencies
+### Install Dependencies
 Install the necessary dependencies by running:
 
 pip install -r requirements.txt
@@ -43,18 +42,18 @@ joblib
 langchain
 python-dotenv
 
-## Add Your OpenAI API Key
+### Add Your OpenAI API Key
 Create a .env file in the root of your project and add your OpenAI API key like this:
 
 OPENAI_API_KEY=your-openai-api-key
 
-## Load the Trained Model
+### Load the Trained Model
 Ensure the pre-trained XGBoost model (trained_model.pkl) is in the root directory. If you want to use your own model, replace the file with your trained model.
 
-## Run the Application
+### Run the Application
 Start the app by running the following command:
 
-## streamlit run app.py
+### streamlit run app.py
 This will launch the application locally on http://localhost:8501/.
 
 ## How to Use
@@ -85,3 +84,5 @@ Common Issues:
 Model file not found: Ensure that the trained_model.pkl file is in the correct directory.
 OpenAI API Key not set: Make sure the .env file is correctly configured with your OpenAI API key.
 Dependencies not installed: Double-check that all packages in requirements.txt are installed.
+
+## LICENSE 
