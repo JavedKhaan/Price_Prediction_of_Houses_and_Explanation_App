@@ -1,0 +1,9 @@
+streamlit
+joblib
+seaborn
+scikit-learn
+pandas
+matplotlib
+xgboost
+dotenv
+langchain
